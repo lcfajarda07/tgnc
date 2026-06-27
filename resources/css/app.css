@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.jsx";
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+    --color-royal: #0B3D91;
+    --color-gold: #D4AF37;
+    --color-cloud: #F8FAFC;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background: #F8FAFC;
+        color: #0f172a;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: Poppins, Inter, ui-sans-serif, system-ui, sans-serif;
+        letter-spacing: 0;
+    }
+}
+
+@layer utilities {
+    .glass-panel {
+        background: rgba(255, 255, 255, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        box-shadow: 0 24px 80px rgba(11, 61, 145, 0.14);
+        backdrop-filter: blur(18px);
+    }
+
+    .premium-shadow {
+        box-shadow: 0 22px 70px rgba(15, 23, 42, 0.12);
+    }
+
+    .text-balance {
+        text-wrap: balance;
+    }
+}
