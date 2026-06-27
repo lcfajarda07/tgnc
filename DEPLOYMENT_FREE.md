@@ -20,6 +20,11 @@ APP_KEY=base64:GENERATE_THIS_LOCALLY
 APP_DEBUG=false
 APP_URL=https://YOUR-PROJECT.vercel.app
 LOG_CHANNEL=stderr
+VIEW_COMPILED_PATH=/tmp/framework/views
+APP_CONFIG_CACHE=/tmp/framework/cache/config.php
+APP_EVENTS_CACHE=/tmp/framework/cache/events.php
+APP_PACKAGES_CACHE=/tmp/framework/cache/packages.php
+APP_ROUTES_CACHE=/tmp/framework/cache/routes.php
 
 DB_CONNECTION=pgsql
 DB_URL=postgresql://USER:PASSWORD@HOST/DB?sslmode=require

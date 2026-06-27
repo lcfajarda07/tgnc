@@ -26,6 +26,6 @@
       "dest": "/api/index.php"
     }
   ],
-  "buildCommand": "npm run build",
+  "buildCommand": "composer install --no-dev --prefer-dist --optimize-autoloader --ignore-platform-req=ext-exif && npm ci && npm run build",
   "outputDirectory": "public"
 }
