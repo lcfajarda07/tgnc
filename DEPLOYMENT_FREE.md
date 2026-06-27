@@ -31,6 +31,7 @@ DB_CONNECTION=pgsql
 DB_URL=postgresql://USER:PASSWORD@HOST/DB?sslmode=require
 
 SESSION_DRIVER=database
+SESSION_SECURE_COOKIE=true
 CACHE_STORE=database
 QUEUE_CONNECTION=database
 FILESYSTEM_DISK=local
