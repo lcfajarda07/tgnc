@@ -19,6 +19,7 @@ $serverlessEnvironment = [
     'APP_EVENTS_CACHE' => $frameworkPath.'/cache/events.php',
     'APP_PACKAGES_CACHE' => $frameworkPath.'/cache/packages.php',
     'APP_ROUTES_CACHE' => $frameworkPath.'/cache/routes.php',
+    'APP_SERVICES_CACHE' => $frameworkPath.'/cache/services.php',
     'LOG_CHANNEL' => 'stderr',
 ];
 

@@ -25,6 +25,7 @@ APP_CONFIG_CACHE=/tmp/framework/cache/config.php
 APP_EVENTS_CACHE=/tmp/framework/cache/events.php
 APP_PACKAGES_CACHE=/tmp/framework/cache/packages.php
 APP_ROUTES_CACHE=/tmp/framework/cache/routes.php
+APP_SERVICES_CACHE=/tmp/framework/cache/services.php
 
 DB_CONNECTION=pgsql
 DB_URL=postgresql://USER:PASSWORD@HOST/DB?sslmode=require
